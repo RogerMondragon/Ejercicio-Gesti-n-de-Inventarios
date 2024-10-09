@@ -1,0 +1,113 @@
+/* Estilos Básicos */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://img.freepik.com/fotos-premium/exhibicion-vivida-luces-neon-patrones-intrincados-que-crean-experiencia-visual-dinamica_1204564-52825.jpg?w=740");
+    background-position: 5px;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Formulario */
+.form-section {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 2px solid #2193b0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #6dd5ed;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #2193b0;
+}
+
+/* Tabla */
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-section th, .table-section td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-section tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Botones de Acción */
+.btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+.btn-actualizar {
+    background-color: #ffc107;
+}
+
+.btn-actualizar:hover {
+    background-color: #e0a800;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    form input, form button {
+        width: 100%;
+    }
+
+    .table-section table, .table-section th, .table-section td {
+        font-size: 14px;
+    }
+}
